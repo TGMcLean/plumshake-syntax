@@ -16,10 +16,6 @@ A dark theme for Atom, easy on the eyes. Cold Plumshake for a hot day!
 
 ![plumshake-syntax](https://github.com/TGMcLean/plumshake-syntax/blob/master/img/screenshot-shell.jpg)
 
-### XML
-
-![plumshake-syntax](https://github.com/TGMcLean/plumshake-syntax/blob/master/img/screenshot-xml.jpg)
-
 ### C#
 
 ![plumshake-syntax](https://github.com/TGMcLean/plumshake-syntax/blob/master/img/screenshot-csharp.jpg)
