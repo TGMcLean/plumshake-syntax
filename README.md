@@ -22,4 +22,4 @@ A dark theme for Atom, easy on the eyes. Cold Plumshake for a hot day!
 
 ### C#
 
-![plumshake-syntax](https://raw.githubusercontent.com/TGMcLean/plumshake-syntax/img/screenshot-Csharp.jpg)
+![plumshake-syntax](https://github.com/TGMcLean/plumshake-syntax/img/screenshot-csharp.jpg)
