@@ -1,30 +1,37 @@
 // This defines all syntax variables that syntax themes must implement when they
 // include a syntax-variables.less file.
 
-// General colors
-@syntax-text-color: #F8F8F2;
-@syntax-cursor-color: #F8F8F0;
-@syntax-selection-color: #996200;
-@syntax-background-color: #222236;
+// Palette:
+@merlot: #6E1659;
+@neon-green: #A8FF60;
+@orange: #FFA300;
+@plumshake: #222236;
+@sky-blue: #96CBFE;
+@white: #F8F8F2;
 
-// Guide colors
-@syntax-wrap-guide-color: #6E1659;
-@syntax-indent-guide-color: #6E1659;
-@syntax-invisible-character-color: #6E1659;
+// General colors:
+@syntax-text-color: @white;
+@syntax-cursor-color: @white;
+@syntax-selection-color: @orange;
+@syntax-background-color: @plumshake;
 
-// For find and replace markers
-@syntax-result-marker-color: #6E1659;
-@syntax-result-marker-color-selected: #F8F8F2;
+// Guide colors:
+@syntax-wrap-guide-color: @merlot;
+@syntax-indent-guide-color: @merlot;
+@syntax-invisible-character-color: @merlot;
 
-// Gutter colors
-@syntax-gutter-text-color: #F8F8F2;
-@syntax-gutter-text-color-selected: #000B46;
+// For find and replace markers:
+@syntax-result-marker-color: @merlot;
+@syntax-result-marker-color-selected: @white;
+
+// Gutter colors:
+@syntax-gutter-text-color: @white;
+@syntax-gutter-text-color-selected: @white;
 @syntax-gutter-background-color: #222236;
-@syntax-gutter-background-color-selected: #FFA300;
+@syntax-gutter-background-color-selected: @orange;
 
-// For git diff info. i.e. in the gutter
-// These are static and were not extracted from your textmate theme
-@syntax-color-renamed: #96CBFE;
-@syntax-color-added: #A8FF60;
-@syntax-color-modified: #E9C062;
+// For git diff info. (ie., in the gutter):
+@syntax-color-renamed: @sky-blue;
+@syntax-color-added: @neon-green;
+@syntax-color-modified: @orange;
 @syntax-color-removed: #CC6666;
